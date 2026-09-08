@@ -1,0 +1,41 @@
+Problem 7 Temperature Converter
+
+
+
+Console.WriteLine("Enter Temperature in Celsius:");
+double celsius = Convert.ToDouble(Console.ReadLine());
+double fahrenheit = (celsius * 9 / 5) + 32;
+double kelvin = celsius + 273.15;
+
+bool celsiusResult = celsius >30;
+bool fahrenheitResult = fahrenheit > 86;
+bool kelvinResult = kelvin > 300;
+
+Console.WriteLine($"Fahrenheit: {fahrenheit}");
+Console.WriteLine($"Kelvin: {kelvin}");
+Console.WriteLine($"Celsius > 30: {celsiusResult}");
+Console.WriteLine($"Fahrenheit > 86: {fahrenheitResult}");
+Console.WriteLine($"Kelvin > 300: {kelvinResult}");
+
+
+
+5 INPUTS
+
+Console.WriteLine("Enter your FullName:");
+string Fullname = Console.ReadLine();
+
+Console.WriteLine(" Enter your Birth Year:");
+
+int BirthYear = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine(" Enter your Hobby:");
+string Hobby = Console.ReadLine();
+
+Console.WriteLine("Enter your Favorite Color:");
+string FavoriteColor = Console.ReadLine();
+
+Console.WriteLine("\n-----Profile Information-----");
+Console.WriteLine("FullName:" + Fullname);
+Console.WriteLine("Birth Year:" + BirthYear);
+Console.WriteLine("Hobby:" + Hobby);
+Console.WriteLine("Favorite Color:" + FavoriteColor);
