@@ -1,0 +1,88 @@
+
+ODD OR EVEN
+
+
+
+
+using System.Diagnostics.Eventing.Reader;
+
+namespace _3rdexercise
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btncheck_Click(object sender, EventArgs e)
+        {
+            int number = Convert.ToInt32(txtnumber.Text);
+
+            if (number % 2 == 0)
+            {
+                lblresult.Text = "Even number";
+            }
+            else
+            {
+                lblresult.Text = "Odd number";
+            }
+        }
+    }
+}
+
+
+POSITIVE OR NEGATIVE
+
+using System.Diagnostics.Eventing.Reader;
+
+namespace _3rdexercise
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btncheck_Click(object sender, EventArgs e)
+        {
+            int number = Convert.ToInt32(txtnumber.Text);
+
+            if (number > 0)
+            {
+                lblresult.Text = "Positive number";
+            }
+            else
+            {
+                lblresult.Text = "Negative number";
+            }
+        }
+
+        private void lbltitle_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
+
